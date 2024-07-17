@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titulo h1 {
+    color: #333;
+}
+
+.opciones {
+    margin-top: 20px;
+}
+
+.opciones p {
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.p1:hover {
+    color: red;
+}
+
+#si {
+    margin-top: 20px;
+    color: green;
+}
+
